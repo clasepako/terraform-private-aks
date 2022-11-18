@@ -20,7 +20,7 @@ variable "kube_vnet_name" {
 
 variable "kube_version" {
   description = "AKS Kubernetes version"
-  default     = "1.18.8"
+  default     = "1.22.11"
 }
 
 variable "kube_resource_group_name" {
